@@ -36,7 +36,7 @@ SUBNET_ID=$(aws ec2 create-subnet \
 --query Subnet.SubnetId \
 --output text)
 
-echo "SUBNET_ID: $SUBNET_ID"
+echo "SUBNET_ID: $SUBNET_ID" 
 
 ## auto assign IPv4 addresses
 
